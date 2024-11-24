@@ -1,0 +1,34 @@
+# Ignore the Composer vendor directory (for PHP dependencies)
+vendor/
+
+# Ignore node_modules directory (if you're using npm or yarn for front-end dependencies)
+node_modules/
+
+# Ignore compiled Bootstrap and jQuery (if you're not committing the compiled versions)
+public/css/
+public/js/
+
+# Ignore the environment configuration files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PHP unit test coverage files
+phpunit-coverage/
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore build or deployment directories
+build/
+dist/
